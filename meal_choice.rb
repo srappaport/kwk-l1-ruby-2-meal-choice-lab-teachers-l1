@@ -1,27 +1,27 @@
 # Here's an example of a 'snacks' method that returns the meal choice passed in to it and defaults to "cheetos" if nothing is passed in.
 def snacks(food="Cheetos")
-  "Any time, is the right time for #{food}!"
+  "Any time is the right time for #{food}!"
 end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
 def breakfast(food="frosted flakes")
-  puts "Morning is the best time to eat #{food}"
+  "Morning is the best time to eat #{food}"
 end
-breakfast
-breakfast("pancakes")
+puts breakfast
+puts breakfast("pancakes")
 
 def lunch(food="grilled cheese")
-  puts "Noon is the best time to eat #{food}"
+  "Noon is the best time to eat #{food}"
 end
-lunch
-lunch("pancakes")
+puts lunch
+puts lunch("pancakes")
 
 def dinner(food="salmon")
-  puts "LATE EVENING is the best time to eat #{food}"
+  "LATE EVENING is the best time to eat #{food}"
 end
-dinner
-dinner("pancakes")
+puts dinner
+puts dinner("pancakes")
 
 
 
